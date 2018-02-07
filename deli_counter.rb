@@ -6,8 +6,8 @@ def line(array)
     puts "The line is currently empty."
   else
     status = "The line is currently:"
-    array.each do |name|
-      status << "#{array["name"]-1}" + " #{name}"
+    array.each.with_index { |name,index|
+      status << "#{index+1}" + " #{name}"
 
     end
     puts status
