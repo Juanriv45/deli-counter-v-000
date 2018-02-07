@@ -8,8 +8,7 @@ def line(array)
     status = "The line is currently:"
     array.each.with_index { |name,index|
       status << "#{index+1}" + " #{name}"
-
-    end
+    }
     puts status
   end
 end
