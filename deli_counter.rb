@@ -25,4 +25,5 @@ def now_serving(array)
     puts "There is nobody waiting to be served!"
   else
     puts "Now serving #{array.first}"
+  end
 end
