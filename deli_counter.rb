@@ -10,5 +10,5 @@ end
 
 def take_a_number(array,name)
 array << name
-puts "#{name} + ' ' + #{array.size}"
+puts "#{name}" + " " + "#{array.size}"
 end
