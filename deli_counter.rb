@@ -5,9 +5,9 @@ def line(array)
   if array.size === 0 then
     puts "The line is currently empty."
   else
-    status = "The line is currently:"
+    status = "The line is currently: "
     array.each.with_index { |name,index|
-      status << "#{index+1}" + " #{name}"
+      status << " #{index+1}" +"." " #{name}"
     }
     puts status
   end
