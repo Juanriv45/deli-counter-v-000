@@ -7,9 +7,10 @@ def line(array)
   else
     status = "The line is currently:"
     array.each do |name|
-      status << array[name]-1 + " #{name}"
-      puts status
+      status << "#{array[name]-1}" + " #{name}"
+      
     end
+    puts status
   end
 end
 
