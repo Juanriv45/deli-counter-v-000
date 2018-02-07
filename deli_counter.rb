@@ -7,7 +7,7 @@ def line(array)
   else
     status = "The line is currently:"
     array.each do |name|
-      status << "#{array[name]-1}"+ " #{name}"
+      status << array[name]-1 + " #{name}"
     end
   end
 end
